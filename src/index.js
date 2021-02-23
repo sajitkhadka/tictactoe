@@ -23,9 +23,9 @@ var initiateComponents = function () {
   // player1.listen("think", (position) => {
   //   next(position);
   // });
-  // player2.listen("think", (position) => {
-  //   next(position);
-  // });
+  player2.listen("think", (position) => {
+    next(position);
+  });
   // player2.startThinking();
   game.start();
 };
